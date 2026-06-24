@@ -82,3 +82,34 @@ print((10< a) or (a>20))
 a = 20
 print (not(25 > a))
 
+#Assignment operator =,+=,-=,*=,/=
+#Swap two numbers
+a = 10
+b = 20
+temp = a
+a = b
+b = temp
+print(a,b)
+
+#Membership operator
+#In and not in
+s = 'String'
+print('i' in s)
+print('i' not in s)
+
+#Bitwise operator
+#>>,<<,^,&,|,~
+a = 5 #1 0 1
+b = 4 #1 0 0 
+print(a | b) #bitwise or
+print(a & b) #bitwise and
+print(a ^ b) #bitwise xor
+#left shift <<
+b = 4 #1 0 0
+c = b << 2 
+print(c)
+#right shift >>
+b = 4
+c = b >> 2
+print(c)
+
