@@ -176,3 +176,33 @@ for i in range (0,len(s)):
 #2nd method to iterate by using membership operator
 for ch in s:
     print(ch)
+
+#Ques 1
+emp_id = 'EMP-45879-IT'
+if '5' in emp_id:
+    print('Priority employee') 
+else:
+    print('Regular employee')
+
+s = 'rakshita'
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.title())
+print(s.swapcase())
+
+name ='   Rakshita   '
+#Strip method
+print(name.strip())
+print(name.lstrip())
+print(name.rstrip())
+
+print('5'.isalpha())
+print('v'.isalpha())
+
+print('5'.isnumeric())
+print('v'.isnumeric())
+
+print('5'.isalnum())
+print('v'.isalnum())
+
